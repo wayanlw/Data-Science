@@ -115,7 +115,7 @@ Here the notation $E\left(y_0-\hat{f}(x_0)\right)^2$ defines the expected test M
 
 - Most common method is error rate
 - Training error rate is $\begin{aligned}\frac{1}{n}\sum_{i=1}^nI(y_i\neq\hat{y}_i).\end{aligned}$ "I" is and indicator variable that equals 1 if $y_i\neq\hat{y}_i$. If this is 0, then the observation is classified correct
-- testing error rate $\operatorname{Ave}\left(I(y_0\neq\hat{y}_0)\right)$ where y 0 is the predicted class label that results from applying the classifier to the test observation with predictor x 0 .
+- testing error rate $\mathrm{Ave}\left(I(y_0\neq\hat{y}_0)\right)$ where y 0 is the predicted class label that results from applying the classifier to the test observation with predictor x 0 .
 - Good classifer is one with the smallest *test error*
 
 Bayes decission boundary - Gold standard. produces the lowest possible test error rate, called the Bayes error rate. Shows the line where the condition probability is 50%. However, cannot do for real data. The Bayes error rate is analogous to the irreducible error, discussed earlier. So it is used as a comparator
