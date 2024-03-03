@@ -114,7 +114,7 @@ Here the notation $E\left(y_0-\hat{f}(x_0)\right)^2$ defines the expected test M
 #### 2.2.2 Variance Vs Bias Tradeoff - Classification Settings
 
 - Most common method is error rate
-- Training error rate is $\begin{aligned}\frac{1}{n}\sum_{i=1}^nI(y_i\neq\hat{y}_i).\end{aligned}$ "I" is and indicator variable that equals 1 if $y_i\neq\hat{y}_i$. If this is 0, then the observation is classified correct
+- Training error rate is $\frac1n\sum_{i=1}^{n}I(y_{i}\neq\hat{y}_{i})$ "I" is and indicator variable that equals 1 if $y_i\neq\hat{y}_i$. If this is 0, then the observation is classified correct
 - testing error rate $\mathrm{Ave}\left(I(y_0\neq\hat{y}_0)\right)$ where y 0 is the predicted class label that results from applying the classifier to the test observation with predictor x 0 .
 - Good classifer is one with the smallest *test error*
 
